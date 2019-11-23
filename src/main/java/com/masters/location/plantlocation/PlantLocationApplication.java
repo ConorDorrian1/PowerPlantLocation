@@ -13,7 +13,6 @@ import java.util.logging.Logger;
 @SpringBootApplication
 //@ComponentScan(basePackages={"com.masters.location.plantlocation.Controller"}) //From package above, so that controller can see and access this file
 @EnableEurekaClient //Letting this service know it a client of service discovery, making it explicit
-
 public class PlantLocationApplication {
 
     private static final Logger LOG = Logger.getLogger(PlantLocationApplication.class.getName());
